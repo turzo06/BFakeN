@@ -54,13 +54,13 @@ def main() -> None:
     )
     parser.add_argument(
         "--input",
-        default="/home/runner/work/BFakeN/BFakeN/fake_news_title_only_version.csv",
-        help="Absolute path of input CSV file",
+        default="fake_news_title_only_version.csv",
+        help="Input CSV path",
     )
     parser.add_argument(
         "--output",
-        default="/home/runner/work/BFakeN/BFakeN/fake_news_title_only_version_cleaned.csv",
-        help="Absolute path of output CSV file",
+        default="fake_news_title_only_version_cleaned.csv",
+        help="Output CSV path",
     )
     args = parser.parse_args()
 
